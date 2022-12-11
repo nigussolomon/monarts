@@ -1,0 +1,40 @@
+.navbar{
+    margin: 1vw;
+    display: flex;
+    justify-content: space-between;
+    width: 98vw;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(136, 136, 136, 0.226);
+}
+
+.headNav, .centerNav, .tailNav{
+    margin: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerNav{
+    margin: 1vw;
+    width: 20vw;
+    justify-content: center;
+}
+
+.centerNav h2{
+    color: var(--primary);
+    font-weight: 800;
+}
+
+.headNav, .tailNav{
+    width: 13vw;
+}
+
+.headNav a, .tailNav a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+#active{
+    opacity: 70%;
+}
+
