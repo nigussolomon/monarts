@@ -1,0 +1,44 @@
+.footer{
+    margin: 1vw;
+    display: flex;
+    justify-content: space-between;
+    width: 98vw;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(136, 136, 136, 0.226);
+}
+
+.head, .center, .tail{
+    margin: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center{
+    margin: 1vw;
+    width: 20vw;
+    justify-content: center;
+}
+
+.tail{
+    justify-content: right;
+}
+
+.center h2{
+    color: var(--primary);
+    font-weight: 800;
+}
+
+.head, .tail{
+    width: 13vw;
+}
+
+.head a, .tail a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+#active{
+    opacity: 70%;
+}
+
