@@ -1,0 +1,95 @@
+.hero, .about{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+    width: 98vw;
+    box-shadow: 0px 0px 5px rgba(136, 136, 136, 0.226);
+    border-radius: 4px;
+}
+
+.about{
+    justify-content: left;
+    height: 60vh;
+}
+
+.heroTxt, .aboutTxt{
+    padding: 5vw;
+    color: var(--primary);
+}
+.heroTxt h1, .aboutTxt h1{
+    font-size: 50px;
+}
+
+.heroTxt span, .aboutTxt span{
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+.heroTxt p, .aboutTxt p{
+    font-size: 14px;
+    margin-top: 1.5vh;
+}
+
+.heroImg, .aboutImg{
+    width: 50vw;
+}
+
+.heroimg, .aboutimg{
+    width: 50vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background: url("../assets/heroImg.png");
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.aboutimg{
+    background: url("../assets/moni.png");
+    background-repeat: no-repeat;
+}
+
+.recentsTitle, .aboutTitle{
+    text-align: center;
+}
+
+.recentsTitle h1, .aboutTitle h1{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.recents{
+    margin: 1vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.recent{
+    border-radius: 4px;
+    width: 20vw;
+    box-shadow: 0px 0px 5px rgba(136, 136, 136, 0.226);
+    margin-bottom: 1vw;
+}
+
+.recent h3{
+    padding: .7vw;
+    padding-bottom: 0;
+    letter-spacing: 1px;
+    margin-bottom: .2vw;
+}
+
+.recent p{
+    padding: .7vw;
+    padding-top: 0;
+    font-size: 14px;
+}
+
+.recent .recentImg img{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 100%;
+    height: 25vh;
+}
