@@ -20,7 +20,8 @@
     justify-content: center;
 }
 
-.centerNav h2{
+.centerNav h2 a{
+    text-decoration: none;
     color: var(--primary);
     font-weight: 800;
 }
