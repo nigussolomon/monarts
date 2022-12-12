@@ -35,6 +35,7 @@ export default function Home() {
 
       <div className="recentsTitle">
         <h1>Recent Paintings</h1>
+        <h4><a href="/paintings">view more</a></h4>
       </div>
 
       <div className="recents">
